@@ -1,0 +1,29 @@
+=== Backend directo Gunicorn ===
+HTTP/1.1 200 OK
+Server: gunicorn
+Date: Sat, 12 Sep 2026 18:43:34 GMT
+Connection: close
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Vary: Cookie
+Content-Length: 6593
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Set-Cookie: csrftoken=KJzAEc3SakWJPerGep1zSFgSmjwqFoQ7; expires=Sat, 11 Sep 2027 18:43:34 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure
+
+
+=== Acceso mediante Nginx/HTTPS ===
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Sat, 12 Sep 2026 18:43:34 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 6593
+Connection: keep-alive
+X-Frame-Options: DENY
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Set-Cookie: csrftoken=sRFpX9uDalBKpGyfd0QtdPy2UknSZVT6; expires=Sat, 11 Sep 2027 18:43:34 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure
+

@@ -1,0 +1,17 @@
+=== Estado inicial ===
+active
+
+=== Backend detenido ===
+Healthchecks detenido manualmente con systemctl stop healthchecks.
+
+=== Respuesta con backend caído ===
+HTTP/1.1 502 Bad Gateway
+
+=== Backend recuperado ===
+Healthchecks iniciado manualmente con systemctl start healthchecks.
+
+=== Respuesta después de recuperar ===
+HTTP/1.1 200 OK
+
+=== Estado final ===
+active

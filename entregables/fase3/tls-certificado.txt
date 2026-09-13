@@ -1,0 +1,7 @@
+subject=C = PY, O = ArqWeb, OU = Healthchecks, CN = healthchecks.arqweb.test
+issuer=C = PY, O = ArqWeb, OU = Healthchecks, CN = healthchecks.arqweb.test
+notBefore=Sep 11 10:48:36 2026 GMT
+notAfter=Sep 11 10:48:36 2027 GMT
+sha256 Fingerprint=1F:08:4F:62:30:99:DE:E1:08:03:6D:71:98:CA:7C:BE:38:CE:61:47:EE:18:16:23:8C:6C:7C:4B:0E:14:A8:CA
+X509v3 Subject Alternative Name: 
+    DNS:healthchecks.arqweb.test, IP Address:192.168.56.101

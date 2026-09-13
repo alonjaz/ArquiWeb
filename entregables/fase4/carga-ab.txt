@@ -1,0 +1,56 @@
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking healthchecks.arqweb.test (be patient)
+Completed 150 requests
+Completed 300 requests
+Completed 450 requests
+Completed 600 requests
+Completed 750 requests
+Completed 900 requests
+Completed 1050 requests
+Completed 1200 requests
+Completed 1350 requests
+Completed 1500 requests
+Finished 1500 requests
+
+
+Server Software:        nginx/1.24.0
+Server Hostname:        healthchecks.arqweb.test
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.3,TLS_AES_256_GCM_SHA384,2048,256
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        healthchecks.arqweb.test
+
+Document Path:          /accounts/login/
+Document Length:        6593 bytes
+
+Concurrency Level:      10
+Time taken for tests:   17.426 seconds
+Complete requests:      1500
+Failed requests:        0
+Total transferred:      10567500 bytes
+HTML transferred:       9889500 bytes
+Requests per second:    86.08 [#/sec] (mean)
+Time per request:       116.176 [ms] (mean)
+Time per request:       11.618 [ms] (mean, across all concurrent requests)
+Transfer rate:          592.19 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        6   16   9.5     14      92
+Processing:    10  100  42.2     85     423
+Waiting:       10   99  41.7     84     423
+Total:         17  116  47.8     98     464
+
+Percentage of the requests served within a certain time (ms)
+  50%     98
+  66%    108
+  75%    127
+  80%    142
+  90%    171
+  95%    203
+  98%    264
+  99%    337
+ 100%    464 (longest request)
